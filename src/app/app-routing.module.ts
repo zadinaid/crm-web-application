@@ -7,7 +7,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { HeaderComponent } from './header/header.component';
-
+import { BlogComponent } from './blog/blog.component';
+import { ArticleComponent } from './article/article.component';
 const routes: Routes = [
   { path: '', redirectTo: '/Home', pathMatch: 'full' },
   { path: 'Home', component: HeaderComponent },
@@ -16,6 +17,8 @@ const routes: Routes = [
   { path: 'Services', component: ContentComponent },
   { path: 'Testimonials', component: TestimonialsComponent },
   { path: 'Clients', component: ClientsComponent },
+  { path: 'Offers', component: BlogComponent },
+  { path: 'article/:id', component: ArticleComponent },
   { path: 'Pricing', component: PricingComponent },
 ];
 

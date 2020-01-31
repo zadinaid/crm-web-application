@@ -90,4 +90,16 @@ export const configuration = {
         {title: 'Instagram', target: '_blank', username: 'jagmohan', icon: 'instagram'},
         {title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
     ],
-};
+    blog: {
+        tagline: 'OFFERS',
+        title: 'Choose what suits you',
+        posts: [
+            {id: 1, title: 'Offer', author: 'Unknown', image: 'post-image-1.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 2, title: 'Offer', author: 'Unknown', image: 'post-image-2.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 3, title: 'Offer', author: 'Unknown', image: 'post-image-3.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 4, title: 'Offer', author: 'Unknown', image: 'post-image-4.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 5, title: 'Offer', author: 'Unknown', image: 'post-image-5.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 6, title: 'Offer', author: 'Unknown', image: 'post-image-6.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+        ]
+    }
+}
