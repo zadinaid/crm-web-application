@@ -2,7 +2,7 @@ export const configuration = {
     header: {
         heading: 'My website',
         headingtext: 'Namari is a free landing page template you can use for your projects. It is free to use for your personal and commercial projects, enjoy!',
-        buttontext: 'do some action!',
+        buttontext: 'Buy today',
         buttonlink: '\home'
     },
     intro: {
@@ -84,11 +84,11 @@ export const configuration = {
         copyrighttext: 'Made with love',
     },
     socialsites: [
-        {title: 'Facebook', target: '_blank', username: 'jagmohan', icon: 'facebook'},
-        {title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
-        {title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
-        {title: 'Instagram', target: '_blank', username: 'jagmohan', icon: 'instagram'},
-        {title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
+        {link: 'https://www.facebook.com/', title: 'Facebook', target: '_blank', username: 'jagmohan', icon: 'facebook'},
+        {link: 'https://www.google.com/', title: 'Google+', target: '_blank', username: '+jagmohan', icon: 'google-plus'},
+        {link: 'https://www.twitter.com/', title: 'Twitter', target: '_blank', username: 'jagmohan', icon: 'twitter'},
+        {link: 'https://www.instagram.com/', title: 'Instagram', target: '_blank', username: 'jagmohan', icon: 'instagram'},
+        {link: 'https://www.behance.net/', title: 'Behance', target: '_blank', username: 'jagmohan', icon: 'behance'},
     ],
     blog: {
         tagline: 'OFFERS',
@@ -100,6 +100,12 @@ export const configuration = {
             {id: 4, title: 'Offer', author: 'Unknown', image: 'post-image-4.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
             {id: 5, title: 'Offer', author: 'Unknown', image: 'post-image-5.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
             {id: 6, title: 'Offer', author: 'Unknown', image: 'post-image-6.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 7, title: 'Offer', author: 'Unknown', image: 'post-image-1.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 8, title: 'Offer', author: 'Unknown', image: 'post-image-2.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 9, title: 'Offer', author: 'Unknown', image: 'post-image-3.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 10, title: 'Offer', author: 'Unknown', image: 'post-image-4.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 11, title: 'Offer', author: 'Unknown', image: 'post-image-5.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
+            {id: 12, title: 'Offer', author: 'Unknown', image: 'post-image-6.jpg', publishdate: '2019-03-19T07:22Z', excert: 'This is summary'},
         ]
     }
 }
